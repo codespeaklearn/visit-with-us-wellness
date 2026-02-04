@@ -6,7 +6,7 @@ from sklearn.model_selection import train_test_split
 
 os.makedirs("model", exist_ok=True)
 
-df = pd.read_csv("data/travel.csv")
+df = pd.read_csv("data/tourism.csv")
 
 X = df.drop("ProdTaken", axis=1)
 y = df["ProdTaken"]
