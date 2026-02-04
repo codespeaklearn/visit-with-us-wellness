@@ -11,7 +11,6 @@ customer purchases of a Wellness Tourism Package.
 - Streamlit
 
 ### Repository Structure
-
 visit-with-us-wellness/
 ├── data/
 │   └── travel.csv
