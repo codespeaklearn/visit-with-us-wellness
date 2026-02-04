@@ -28,7 +28,7 @@ jobs:
       run: |
         python - <<EOF
         import pandas as pd
-        df = pd.read_csv("data/travel.csv")
+        df = pd.read_csv("data/tourism.csv")
         assert df.shape[0] > 0
         print("Data validation passed")
         EOF
