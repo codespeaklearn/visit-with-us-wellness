@@ -11,13 +11,15 @@ customer purchases of a Wellness Tourism Package.
 - Streamlit
 
 ### Repository Structure
+```text
 visit-with-us-wellness/
 ├── data/
 │   └── travel.csv
 ├── src/
 │   ├── train.py
 │   └── evaluate.py
-├── .github/workflows/
-│   └── mlops.yml
+├── .github/
+│   └── workflows/
+│       └── mlops.yml
 ├── requirements.txt
 └── README.md
